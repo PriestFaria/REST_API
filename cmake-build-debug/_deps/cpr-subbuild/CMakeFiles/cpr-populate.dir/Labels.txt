@@ -1,0 +1,14 @@
+# Target labels
+ cpr-populate
+# Source files and their labels
+/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/cpr-subbuild/CMakeFiles/cpr-populate
+/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/cpr-subbuild/CMakeFiles/cpr-populate.rule
+/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/cpr-subbuild/CMakeFiles/cpr-populate-complete.rule
+/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-build.rule
+/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-configure.rule
+/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-download.rule
+/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-install.rule
+/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-mkdir.rule
+/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-patch_disconnected.rule
+/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-test.rule
+/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-update_disconnected.rule

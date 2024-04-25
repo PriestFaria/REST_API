@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/zlib-subbuild/CMakeFiles/zlib-populate"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/zlib-subbuild/CMakeFiles/zlib-populate.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/zlib-subbuild/CMakeFiles/zlib-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-build.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-download.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-install.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-patch_disconnected.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-test.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-update_disconnected.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"zlib-populate"
+		],
+		"name" : "zlib-populate"
+	}
+}

@@ -1,0 +1,123 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/_deps/pugixml-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 229,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 236,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 240,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 245,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 248,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/pugixml-build/libpugixml.a"
+			],
+			"targetId" : "pugixml-static::@ec157c7f07670d922be3",
+			"targetIndex" : 4,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Development",
+			"destination" : "lib/cmake/pugixml",
+			"exportName" : "pugixml-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "pugixml::@ec157c7f07670d922be3",
+					"index" : 0
+				},
+				{
+					"id" : "pugixml-static::@ec157c7f07670d922be3",
+					"index" : 4
+				}
+			],
+			"paths" : 
+			[
+				"_deps/pugixml-build/CMakeFiles/Export/be764272e56105fc8ff11fec8314e604/pugixml-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Development",
+			"destination" : "lib/cmake/pugixml",
+			"paths" : 
+			[
+				"cmake-build-debug/_deps/pugixml-build/pugixml-config-version.cmake",
+				"cmake-build-debug/_deps/pugixml-build/pugixml-config.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Development",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"cmake-build-debug/_deps/pugixml-build/pugixml.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Development",
+			"destination" : "include",
+			"paths" : 
+			[
+				"cmake-build-debug/_deps/pugixml-src/src/pugiconfig.hpp",
+				"cmake-build-debug/_deps/pugixml-src/src/pugixml.hpp"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/pugixml-build",
+		"source" : "cmake-build-debug/_deps/pugixml-src"
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/pugixml-subbuild/CMakeFiles/pugixml-populate"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/pugixml-subbuild/CMakeFiles/pugixml-populate.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/pugixml-subbuild/CMakeFiles/pugixml-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/pugixml-populate-build.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/pugixml-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/pugixml-populate-download.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/pugixml-populate-install.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/pugixml-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/pugixml-populate-patch_disconnected.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/pugixml-populate-test.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/pugixml-populate-update_disconnected.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pugixml-populate"
+		],
+		"name" : "pugixml-populate"
+	}
+}

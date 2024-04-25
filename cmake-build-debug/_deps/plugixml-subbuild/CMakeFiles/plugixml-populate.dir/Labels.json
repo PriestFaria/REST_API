@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/plugixml-subbuild/CMakeFiles/plugixml-populate"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/plugixml-subbuild/CMakeFiles/plugixml-populate.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/plugixml-subbuild/CMakeFiles/plugixml-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/plugixml-subbuild/plugixml-populate-prefix/src/plugixml-populate-stamp/plugixml-populate-build.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/plugixml-subbuild/plugixml-populate-prefix/src/plugixml-populate-stamp/plugixml-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/plugixml-subbuild/plugixml-populate-prefix/src/plugixml-populate-stamp/plugixml-populate-download.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/plugixml-subbuild/plugixml-populate-prefix/src/plugixml-populate-stamp/plugixml-populate-install.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/plugixml-subbuild/plugixml-populate-prefix/src/plugixml-populate-stamp/plugixml-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/plugixml-subbuild/plugixml-populate-prefix/src/plugixml-populate-stamp/plugixml-populate-patch_disconnected.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/plugixml-subbuild/plugixml-populate-prefix/src/plugixml-populate-stamp/plugixml-populate-test.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/plugixml-subbuild/plugixml-populate-prefix/src/plugixml-populate-stamp/plugixml-populate-update_disconnected.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"plugixml-populate"
+		],
+		"name" : "plugixml-populate"
+	}
+}

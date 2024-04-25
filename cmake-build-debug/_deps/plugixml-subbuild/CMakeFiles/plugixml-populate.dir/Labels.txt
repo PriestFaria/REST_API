@@ -1,0 +1,14 @@
+# Target labels
+ plugixml-populate
+# Source files and their labels
+/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/plugixml-subbuild/CMakeFiles/plugixml-populate
+/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/plugixml-subbuild/CMakeFiles/plugixml-populate.rule
+/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/plugixml-subbuild/CMakeFiles/plugixml-populate-complete.rule
+/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/plugixml-subbuild/plugixml-populate-prefix/src/plugixml-populate-stamp/plugixml-populate-build.rule
+/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/plugixml-subbuild/plugixml-populate-prefix/src/plugixml-populate-stamp/plugixml-populate-configure.rule
+/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/plugixml-subbuild/plugixml-populate-prefix/src/plugixml-populate-stamp/plugixml-populate-download.rule
+/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/plugixml-subbuild/plugixml-populate-prefix/src/plugixml-populate-stamp/plugixml-populate-install.rule
+/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/plugixml-subbuild/plugixml-populate-prefix/src/plugixml-populate-stamp/plugixml-populate-mkdir.rule
+/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/plugixml-subbuild/plugixml-populate-prefix/src/plugixml-populate-stamp/plugixml-populate-patch_disconnected.rule
+/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/plugixml-subbuild/plugixml-populate-prefix/src/plugixml-populate-stamp/plugixml-populate-test.rule
+/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/plugixml-subbuild/plugixml-populate-prefix/src/plugixml-populate-stamp/plugixml-populate-update_disconnected.rule

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/curl-subbuild/CMakeFiles/curl-populate"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/curl-subbuild/CMakeFiles/curl-populate.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/curl-subbuild/CMakeFiles/curl-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-build.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-download.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-install.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch_disconnected.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-test.rule"
+		},
+		{
+			"file" : "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-update_disconnected.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"curl-populate"
+		],
+		"name" : "curl-populate"
+	}
+}

@@ -1,0 +1,3 @@
+/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/plugixml-subbuild/CMakeFiles/plugixml-populate.dir
+/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/plugixml-subbuild/CMakeFiles/edit_cache.dir
+/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/plugixml-subbuild/CMakeFiles/rebuild_cache.dir

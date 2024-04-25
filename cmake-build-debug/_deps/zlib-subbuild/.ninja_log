@@ -1,0 +1,21 @@
+# ninja log v5
+41	4260	1713956218458542371	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-download	6836ba80723f6397
+4260	4362	1713956218560892364	/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-update_disconnected	14b8d1076017932a
+4404	4444	1713956218642530675	/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-configure	6eeedc5e296133d5
+0	41	1713956214239726745	/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-mkdir	cb26927ff3b78b27
+4260	4362	1713956218560892364	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-update_disconnected	14b8d1076017932a
+41	4260	1713956218458542371	/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-download	6836ba80723f6397
+4563	4623	1713956218822101954	/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-done	125e728b64f825ba
+4362	4404	1713956218602171364	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-patch_disconnected	ada9da3ae7d62403
+4444	4483	1713956218682011076	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-build	17ddc3adb5045ef9
+4563	4623	1713956218822101954	/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/zlib-subbuild/CMakeFiles/zlib-populate-complete	125e728b64f825ba
+4563	4623	1713956218822101954	CMakeFiles/zlib-populate-complete	125e728b64f825ba
+4404	4444	1713956218642530675	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-configure	6eeedc5e296133d5
+0	41	1713956214239726745	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-mkdir	cb26927ff3b78b27
+4563	4623	1713956218822101954	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-done	125e728b64f825ba
+4444	4483	1713956218682011076	/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-build	17ddc3adb5045ef9
+4483	4524	1713956218722794860	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-install	5ff2999f1e6fe175
+4362	4404	1713956218602171364	/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-patch_disconnected	ada9da3ae7d62403
+4483	4524	1713956218722794860	/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-install	5ff2999f1e6fe175
+4524	4563	1713956218762042023	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-test	ad487e0a867e5ac
+4524	4563	1713956218762042023	/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-test	ad487e0a867e5ac

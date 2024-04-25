@@ -1,0 +1,21 @@
+# ninja log v5
+0	42	1713955524143251541	pugixml-populate-prefix/src/pugixml-populate-stamp/pugixml-populate-mkdir	a9f9324cb7709e3a
+4578	4631	1713955528732748286	/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/pugixml-populate-patch_disconnected	c9d51eec867c2cb
+4672	4712	1713955528813451967	pugixml-populate-prefix/src/pugixml-populate-stamp/pugixml-populate-build	51cc2f035754fc2e
+42	4472	1713955528573862449	pugixml-populate-prefix/src/pugixml-populate-stamp/pugixml-populate-download	7846b905ca908679
+4754	4795	1713955528896720444	pugixml-populate-prefix/src/pugixml-populate-stamp/pugixml-populate-test	fb6368be2f2278fa
+0	42	1713955524143251541	/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/pugixml-populate-mkdir	a9f9324cb7709e3a
+4578	4631	1713955528732748286	pugixml-populate-prefix/src/pugixml-populate-stamp/pugixml-populate-patch_disconnected	c9d51eec867c2cb
+42	4472	1713955528573862449	/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/pugixml-populate-download	7846b905ca908679
+4473	4578	1713955528679162890	pugixml-populate-prefix/src/pugixml-populate-stamp/pugixml-populate-update_disconnected	44db0ca6aa2ca842
+4795	4854	1713955528955642171	/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/pugixml-subbuild/CMakeFiles/pugixml-populate-complete	ab17ae41ecfaa23b
+4672	4712	1713955528813451967	/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/pugixml-populate-build	51cc2f035754fc2e
+4712	4754	1713955528856229773	pugixml-populate-prefix/src/pugixml-populate-stamp/pugixml-populate-install	4da6e0090490052c
+4795	4854	1713955528955642171	/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/pugixml-populate-done	ab17ae41ecfaa23b
+4712	4754	1713955528856229773	/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/pugixml-populate-install	4da6e0090490052c
+4631	4672	1713955528773960652	pugixml-populate-prefix/src/pugixml-populate-stamp/pugixml-populate-configure	58c5add102efb9ce
+4631	4672	1713955528773960652	/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/pugixml-populate-configure	58c5add102efb9ce
+4754	4795	1713955528896720444	/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/pugixml-populate-test	fb6368be2f2278fa
+4473	4578	1713955528679162890	/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/pugixml-subbuild/pugixml-populate-prefix/src/pugixml-populate-stamp/pugixml-populate-update_disconnected	44db0ca6aa2ca842
+4795	4854	1713955528955642171	CMakeFiles/pugixml-populate-complete	ab17ae41ecfaa23b
+4795	4854	1713955528955642171	pugixml-populate-prefix/src/pugixml-populate-stamp/pugixml-populate-done	ab17ae41ecfaa23b

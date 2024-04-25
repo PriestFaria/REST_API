@@ -1,0 +1,21 @@
+# ninja log v5
+0	43	1713951978842116265	/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/plugixml-subbuild/plugixml-populate-prefix/src/plugixml-populate-stamp/plugixml-populate-mkdir	7b3f53791de63139
+3393	3432	1713952028738751592	plugixml-populate-prefix/src/plugixml-populate-stamp/plugixml-populate-patch_disconnected	747e99ef60aefdfb
+3393	3432	1713952028738751592	/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/plugixml-subbuild/plugixml-populate-prefix/src/plugixml-populate-stamp/plugixml-populate-patch_disconnected	747e99ef60aefdfb
+0	43	1713951978842116265	plugixml-populate-prefix/src/plugixml-populate-stamp/plugixml-populate-mkdir	7b3f53791de63139
+3547	3586	1713952028892762455	/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/plugixml-subbuild/plugixml-populate-prefix/src/plugixml-populate-stamp/plugixml-populate-test	8682977db678ead4
+0	3294	1713952028600643536	/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/plugixml-subbuild/plugixml-populate-prefix/src/plugixml-populate-stamp/plugixml-populate-download	88c08a49f3484584
+0	3294	1713952028600643536	plugixml-populate-prefix/src/plugixml-populate-stamp/plugixml-populate-download	88c08a49f3484584
+3294	3393	1713952028699757174	plugixml-populate-prefix/src/plugixml-populate-stamp/plugixml-populate-update_disconnected	d1e089b347883826
+3294	3393	1713952028699757174	/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/plugixml-subbuild/plugixml-populate-prefix/src/plugixml-populate-stamp/plugixml-populate-update_disconnected	d1e089b347883826
+3432	3471	1713952028777466449	plugixml-populate-prefix/src/plugixml-populate-stamp/plugixml-populate-configure	b310f5ce676492e1
+3509	3547	1713952028853804304	plugixml-populate-prefix/src/plugixml-populate-stamp/plugixml-populate-install	442f7f92fb6b7790
+3471	3509	1713952028815245908	plugixml-populate-prefix/src/plugixml-populate-stamp/plugixml-populate-build	5992caae0a3aa991
+3586	3644	1713952028950434142	plugixml-populate-prefix/src/plugixml-populate-stamp/plugixml-populate-done	8e0f0a9013be2eea
+3471	3509	1713952028815245908	/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/plugixml-subbuild/plugixml-populate-prefix/src/plugixml-populate-stamp/plugixml-populate-build	5992caae0a3aa991
+3509	3547	1713952028853804304	/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/plugixml-subbuild/plugixml-populate-prefix/src/plugixml-populate-stamp/plugixml-populate-install	442f7f92fb6b7790
+3547	3586	1713952028892762455	plugixml-populate-prefix/src/plugixml-populate-stamp/plugixml-populate-test	8682977db678ead4
+3586	3644	1713952028950434142	/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/plugixml-subbuild/plugixml-populate-prefix/src/plugixml-populate-stamp/plugixml-populate-done	8e0f0a9013be2eea
+3586	3644	1713952028950434142	CMakeFiles/plugixml-populate-complete	8e0f0a9013be2eea
+3432	3471	1713952028777466449	/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/plugixml-subbuild/plugixml-populate-prefix/src/plugixml-populate-stamp/plugixml-populate-configure	b310f5ce676492e1
+3586	3644	1713952028950434142	/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/plugixml-subbuild/CMakeFiles/plugixml-populate-complete	8e0f0a9013be2eea
