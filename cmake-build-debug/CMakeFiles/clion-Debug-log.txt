@@ -85,6 +85,6 @@
 -- Enabled features: SSL IPv6 unixsockets libz AsynchDNS Largefile alt-svc HSTS HTTPS-proxy threadsafe
 -- Enabled protocols: HTTP HTTPS SCP SFTP
 -- Enabled SSL backends: Secure Transport
--- Configuring done (1.0s)
+-- Configuring done (14.5s)
 -- Generating done (0.1s)
 -- Build files have been written to: /Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug

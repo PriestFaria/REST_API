@@ -6091,3 +6091,43 @@ events:
       variable: "run_result_unused"
       cached: true
 ...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/zlib-src/cmake/detect-arch.cmake:24 (try_run)"
+      - "cmake-build-debug/_deps/zlib-src/CMakeLists.txt:49 (include)"
+    directories:
+      source: "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+      binary: "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/timur/vscode/\u041e\u041f_2\u0421\u0415\u041c/rest/cmake-build-debug/_deps/cpr-src/cmake;"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "12.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /Users/timur/Applications/CLion.app/Contents/bin/ninja/mac/x64/ninja -v cmTC_16e37
+        [1/2] /Library/Developer/CommandLineTools/usr/bin/cc   -std=c99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_16e37.dir/detect-arch.c.o -MF CMakeFiles/cmTC_16e37.dir/detect-arch.c.o.d -o CMakeFiles/cmTC_16e37.dir/detect-arch.c.o -c '/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/zlib-src/cmake/detect-arch.c'
+        FAILED: CMakeFiles/cmTC_16e37.dir/detect-arch.c.o 
+        /Library/Developer/CommandLineTools/usr/bin/cc   -std=c99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_16e37.dir/detect-arch.c.o -MF CMakeFiles/cmTC_16e37.dir/detect-arch.c.o.d -o CMakeFiles/cmTC_16e37.dir/detect-arch.c.o -c '/Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/zlib-src/cmake/detect-arch.c'
+        /Users/timur/vscode/ОП_2СЕМ/rest/cmake-build-debug/_deps/zlib-src/cmake/detect-arch.c:8:6: error: archfound x86_64
+            #error archfound x86_64
+             ^
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <GetCursDynamicResponse xmlns="http://web.cbr.ru/">
+            <GetCursDynamicResult>
+                <xs:schema id="ValuteData" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                           xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+                    <xs:element name="ValuteData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+                        <xs:complexType>
+                            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                <xs:element name="ValuteCursDynamic">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="CursDate" type="xs:dateTime" minOccurs="0"/>
+                                            <xs:element name="Vcode" type="xs:string" minOccurs="0"/>
+                                            <xs:element name="Vnom" type="xs:decimal" minOccurs="0"/>
+                                            <xs:element name="Vcurs" type="xs:decimal" minOccurs="0"/>
+                                            <xs:element name="VunitRate" type="xs:double" minOccurs="0"/>
+                                        </xs:sequence>
+                                    </xs:complexType>
+                                </xs:element>
+                            </xs:choice>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:schema>
+                <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                                 xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+                    <ValuteData xmlns="">
+                        <ValuteCursDynamic diffgr:id="ValuteCursDynamic1" msdata:rowOrder="0">
+                            <CursDate>2022-02-01T00:00:00+03:00</CursDate>
+                            <Vcode>R01235</Vcode>
+                            <Vnom>1</Vnom>
+                            <Vcurs>77.4702</Vcurs>
+                            <VunitRate>77.4702</VunitRate>
+                        </ValuteCursDynamic>
+                    </ValuteData>
+                </diffgr:diffgram>
+            </GetCursDynamicResult>
+        </GetCursDynamicResponse>
+    </soap:Body>
+</soap:Envelope>
