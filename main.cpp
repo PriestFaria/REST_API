@@ -196,13 +196,6 @@ int main(int argc, char *argv[]) {
         }
     }
 
-    std::cout << "Vnom: " << args.vNom << std::endl;
-    std::cout << "Vname: " << args.vName << std::endl;
-    std::cout << "Date: " << args.date << std::endl;
-    std::cout << "FromDate: " << args.fromDate << std::endl;
-    std::cout << "ToDate: " << args.toDate << std::endl;
-    std::cout << "File: " << args.filePath << std::endl;
-
     std::string vCode = getValParentCode(args.vName, "valutes_codes.xml");
 
     if (args.date != "")
