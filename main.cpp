@@ -14,35 +14,47 @@ struct Args {
     std::string filePath;
 };
 
+int requestForDate(const std::string &valutaCode, const std::string &date) {
+    std::ostringstream soapRequestStream;
+    soapRequestStream << R"(<?xml version="1.0" encoding="utf-8"?>)"
+                         R"(<soap12:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance")"
+                         R"( xmlns:xsd="http://www.w3.org/2001/XMLSchema")"
+                         R"( xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">)"
+                         R"(<soap12:Body>)"
+                         R"(<GetCursDynamic xmlns="http://web.cbr.ru/">)"
+                         R"(<FromDate>)" << date << R"(</FromDate>)"
+                                                    R"(<ToDate>)" << date << R"(</ToDate>)"
+                                                                             R"(<ValutaCode>)" << valutaCode
+                      << R"(</ValutaCode>)"
+                         R"(</GetCursDynamic>)"
+                         R"(</soap12:Body>)"
+                         R"(</soap12:Envelope>)";
 
-int parseXML() {
-    pugi::xml_document doc;
-    pugi::xml_parse_result result = doc.load_file("example.xml");
-    if (!result) {
-        std::cerr << "XML parsing error: " << result.description() << std::endl;
-        return -1;
+    std::string soapRequest = soapRequestStream.str();
+
+    cpr::Response r = cpr::Post(cpr::Url{"https://www.cbr.ru/DailyInfoWebServ/DailyInfo.asmx"},
+                                cpr::Header{{"Content-Type", "application/soap+xml; charset=utf-8"},
+                                            {"Accept",       "text/xml"}},
+                                cpr::Body{soapRequest});
+
+    if (r.status_code != 200) {
+        std::cerr << "Error: " << r.status_code << std::endl;
+        if (!r.error.message.empty()) {
+            std::cerr << "Detailed error: " << r.error.message << std::endl;
+        }
+        return 0;
     }
 
-    pugi::xml_node valCurs = doc.child("ValCurs");
-    if (!valCurs) {
-        std::cerr << "Invalid XML format: <ValCurs> element not found" << std::endl;
-        return -1;
-    }
-
-    for (pugi::xml_node valute: valCurs.children("Valute")) {
-        std::string id = valute.attribute("ID").as_string();
-        std::string name = valute.child("Name").text().as_string();
-
-        std::cout << "Valute ID: " << id << ", Name: " << name << std::endl;
+    if (r.status_code == 200) {
+        std::ofstream out("response.xml");
+        out << r.text;
+        out.close();
+        return 1;
     }
 }
 
 
 int requestForDateToDate(const std::string &valutaCode, const std::string &fromDate, const std::string &toDate) {
-//    const std::string fromDate = "2023-09-01"; // Start date of the desired period
-//    const std::string toDate = "2023-09-10";   // End date of the desired period
-//    const std::string valutaCode = "R01235";   // Code for the currency (e.g., US Dollar is R01235)
-
     std::ostringstream soapRequestStream;
     soapRequestStream << R"(<?xml version="1.0" encoding="utf-8"?>)"
                          R"(<soap12:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance")"
@@ -65,21 +77,19 @@ int requestForDateToDate(const std::string &valutaCode, const std::string &fromD
                                             {"Accept",       "text/xml"}},
                                 cpr::Body{soapRequest});
 
-    if (r.status_code == 200) {
-//        std::cout << "Success:\n" << r.text << std::endl;
-    } else {
+    if (r.status_code != 200) {
         std::cerr << "Error: " << r.status_code << std::endl;
         if (!r.error.message.empty()) {
             std::cerr << "Detailed error: " << r.error.message << std::endl;
         }
-        return 1;
+        return 0;
     }
 
     if (r.status_code == 200) {
         std::ofstream out("response.xml");
         out << r.text;
         out.close();
-        return 0;
+        return 1;
     }
 }
 
@@ -106,12 +116,13 @@ std::string getValParentCode(const std::string &vName, const std::string &filePa
 }
 
 
-void getDatafromDateToDateXML(const std::string &filePath, int nom) {
+void
+getDatafromXML(const std::string &XMLfilePath, const std::string &filePath, const std::string &currencyName, int nom) {
     pugi::xml_document doc;
-    pugi::xml_parse_result result = doc.load_file(filePath.c_str());
+    pugi::xml_parse_result result = doc.load_file(XMLfilePath.c_str());
 
     if (!result) {
-        std::cerr << "XML [" << filePath << "] parsed with errors, error description is: "
+        std::cerr << "XML [" << XMLfilePath << "] parsed with errors, error description is: "
                   << result.description() << std::endl;
         return;
     }
@@ -124,12 +135,18 @@ void getDatafromDateToDateXML(const std::string &filePath, int nom) {
 
     pugi::xml_node valuteData = diffgram.child("ValuteData");
 
+    std::ofstream oFile;
+    oFile.open(filePath.c_str());
+    oFile << "CurrencyName: " << currencyName << std::endl;
+    oFile << "Denomination: " << nom << std::endl;
     for (pugi::xml_node valuteCursDynamic: valuteData.children("ValuteCursDynamic")) {
         std::string cursDate = valuteCursDynamic.child("CursDate").text().as_string();
         double vCurs = valuteCursDynamic.child("Vcurs").text().as_double();
-
         std::cout << "Дата: " << cursDate << ", Объем валюты: " << vCurs * nom << std::endl;
+        if (oFile.is_open())
+            oFile << "Дата: " << cursDate << ", Объем валюты: " << vCurs * nom << std::endl;
     }
+    oFile.close();
 }
 
 
@@ -158,7 +175,7 @@ int main(int argc, char *argv[]) {
         std::string key;
         std::string value;
         if (start == 0 && equal != std::string::npos) {
-            key = arg.substr(2, equal - 2); // Обрезаем "--" и "="
+            key = arg.substr(2, equal - 2);
             value = arg.substr(equal + 1);
         }
 
@@ -172,14 +189,13 @@ int main(int argc, char *argv[]) {
             args.filePath = value;
         } else if (key == "DateDate") {
             size_t dash = value.find('-');
-            if (dash != std::string::npos) {
-                args.fromDate = value.substr(0, dash);
-                args.toDate = value.substr(dash + 1);
-            }
+            args.fromDate = value.substr(0, dash);
+            args.toDate = value.substr(dash + 1);
+        } else if (key == "Date") {
+            args.date == value;
         }
     }
 
-    // Отладочный вывод для проверки результатов
     std::cout << "Vnom: " << args.vNom << std::endl;
     std::cout << "Vname: " << args.vName << std::endl;
     std::cout << "Date: " << args.date << std::endl;
@@ -196,8 +212,29 @@ int main(int argc, char *argv[]) {
         args.fromDate = getProperDateFormat(args.fromDate);
     }
     std::cout << "vCode: " << vCode << std::endl;
-    requestForDateToDate(vCode, args.fromDate, args.toDate);
-    getDatafromDateToDateXML("response.xml", std::stoi(args.vNom));
+
+    if (vCode == "") {
+        std::cerr << "Could not find currency" << std::endl;
+        return 0;
+    }
+    if (args.toDate != "") {
+        if (requestForDateToDate(vCode, args.fromDate, args.toDate)) {
+            getDatafromXML("response.xml", args.filePath, args.vName, std::stoi(args.vNom));
+        } else {
+            std::cerr << "Could not find currency" << std::endl;
+            return 0;
+        }
+    }
+
+    if (args.date != "") {
+        if (requestForDate(vCode, args.date)) {
+            getDatafromXML("response.xml", args.filePath, args.vName, std::stoi(args.vNom));
+        } else {
+            std::cerr << "Could not find currency" << std::endl;
+        }
+    }
+
+
     return 0;
 }
 
